@@ -21,7 +21,7 @@ export default function FlightTicket() {
         <div className="flex justify-between items-center border-b-2 border-gray-300 pb-4 mb-6">
           <h2 className="text-2xl font-black tracking-widest text-gray-900">ETERNITY AIRWAYS</h2>
           <span className="text-sm font-bold bg-romantic-amber text-white px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-            First Class
+            Fırst Class
           </span>
         </div>
 
@@ -49,7 +49,7 @@ export default function FlightTicket() {
         {/* Kapı, Koltuk, Uçuş Kodu */}
         <div className="flex justify-between items-center bg-gray-100 p-4 rounded-xl border border-gray-200">
           <div>
-            <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Flight</p>
+            <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Flıght</p>
             <p className="text-lg font-bold font-mono">NB-2026</p>
           </div>
           <div>
