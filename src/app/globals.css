@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 11, 16, 33; /* lab-dark */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  overflow-x: hidden;
+  user-select: none; /* Mobilde sürükle-bırak yaparken metin seçimini engellemek için */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Scrollbar'ı gizlemek ve pürüzsüz bir görünüm sağlamak için */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
